@@ -69,6 +69,18 @@ Once the server is running, you can access:
 
 ## API Endpoints
 
+### GET /
+
+Returns the health status of the service (same as /health).
+
+**Response:**
+```json
+{
+  "status": "healthy",
+  "message": "Service is running"
+}
+```
+
 ### GET /health
 
 Returns the health status of the service.
